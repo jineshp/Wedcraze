@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_bg"
+    tools:context="com.app.wedcraze.signup" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <TextView
+        android:id="@+id/fullscreen_content_create_join_wedding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls_signup"
+            style="?metaButtonBarStyle"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#fff"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+
+			<Button
+			    android:id="@+id/create_wedding"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="0.62"
+			    android:background="#F38993"
+			    android:elevation="5dp"
+			    android:text="@string/create_wedding"
+			    android:translationZ="25dp" 
+			    android:gravity="center_vertical|center_horizontal|center"
+			    android:padding="20dp"
+			    />
+			
+            <TextView
+                android:id="@+id/or"
+                android:layout_width="226dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.34"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:text="@string/or"
+                android:textColor="#A4A4A4" 
+                android:padding="25dp"
+                />
+            
+            <Button
+			    android:id="@+id/join_wedding"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:background="#F38993"
+			    android:elevation="5dp"
+			    android:text="@string/join_wedding"
+			    android:translationZ="25dp" 
+			    android:gravity="center_vertical|center_horizontal|center"
+			    android:padding="20dp"
+			    
+			    />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

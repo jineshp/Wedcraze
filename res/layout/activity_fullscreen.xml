@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_bg"
+    tools:context="com.app.wedcraze.FullscreenActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#fff"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+            <EditText
+			    android:id="@+id/editText1"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:ems="10"
+			    android:hint="@string/username"
+			    android:layout_margin="5dp"
+			    android:inputType="text"
+			    tools:ignore="HardcodedText" >
+			    <requestFocus />
+			</EditText>
+
+			<EditText
+			    android:id="@+id/editText2"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:ems="10"
+			    android:hint="@string/password"
+			    android:inputType="textPassword"
+			    tools:ignore="HardcodedText" 
+			    android:layout_margin="5dp"/>
+			
+			<Button
+			    android:id="@+id/login_btn"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:background="#F38993"
+			    android:elevation="5dp"
+			    android:text="@string/log_in"
+			    android:translationZ="25dp" />
+
+			<TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/forgot_login"
+			    android:textColor="#A4A4A4"
+			    android:layout_gravity="center"
+			    android:layout_margin="5dp"/>
+			
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/or"
+			    android:textColor="#A4A4A4"
+			    android:layout_gravity="center"
+			    android:layout_margin="5dp"/>
+
+			
+			
+            <Button
+			 android:id="@+id/signup_btn"
+			 android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+			 android:text="@string/signup_btn"
+			 android:background="#F38993"
+			 android:onClick="signup" />
+            
+            <TextView
+			    android:id="@+id/textView3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/or_login"
+			    android:textColor="#A4A4A4"
+			    android:layout_gravity="center"
+			    android:layout_margin="5dp"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/facebook"
+                    style="@style/ButtonBarButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#3B589A"
+                    android:text="@string/facebook_btn"
+                    android:textSize="23sp" />
+
+                <Button
+                    android:id="@+id/gmail_btn"
+                    style="@style/ButtonBarButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#F01A26"
+                    android:text="@string/gmail_btn"
+                    android:textSize="23sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
