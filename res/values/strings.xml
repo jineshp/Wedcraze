@@ -32,5 +32,6 @@
     <string name="teamgroom">Team Groom</string>
     <string name="teamboth">Both</string>
     <string name="title_activity_main__admin__page">Main_Admin_Page</string>
-
+    <string name="relatedhow">How are you related?</string>
+    
 </resources>

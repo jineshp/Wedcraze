@@ -78,7 +78,7 @@
 			    android:translationZ="25dp" 
 			    android:gravity="center_vertical|center_horizontal|center"
 			    android:padding="20dp"
-			    
+			    android:onClick="joinwedding"
 			    />
 
         </LinearLayout>

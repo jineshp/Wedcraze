@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.app.wedcraze"
     android:versionCode="1"
-    android:versionName="1.0" >
-
+    android:versionName="1.0"     >
+	
     <uses-sdk
         android:minSdkVersion="18"
         android:targetSdkVersion="22" />
@@ -12,12 +12,14 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme" 
+        >
         <activity
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme" >
+            android:theme="@style/FullscreenTheme" 
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,15 +28,23 @@
         </activity>
         <activity
             android:name=".SignUp_activity"
-            android:label="@string/title_activity_sign_up_activity" >
+            android:label="@string/title_activity_sign_up_activity" 
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".Create_join_wedding"
-            android:label="@string/title_activity_create_join_wedding" >
+            android:label="@string/title_activity_create_join_wedding" 
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".Join_wedding"
-            android:label="@string/title_activity_join_wedding" >
+            android:label="@string/title_activity_join_wedding" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Main_Admin_Page"
+            android:label="@string/title_activity_main__admin__page" 
+            android:screenOrientation="portrait">
         </activity>
     </application>
 
