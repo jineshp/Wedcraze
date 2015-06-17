@@ -20,7 +20,10 @@ public class FullscreenActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setContentView(R.layout.activity_fullscreen);
+		//setContentView(R.layout.activity_fullscreen);
+		//Remove title bar
+		this.setContentView(R.layout.activity_fullscreen);
+
 	}
 	
 	public void signup(View view) {

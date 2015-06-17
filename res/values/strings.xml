@@ -24,5 +24,13 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_create_join_wedding">Create_join_wedding</string>
     <string name="title_activity_join_wedding">Join_wedding</string>
+    <string name="introduce">Introduce Yourself</string>
+    <string name="done">I am done!</string>
+    <string name="yourname">Your name:</string>
+    <string name="belongto">You belong to which side:</string>
+    <string name="teambride">Team Bride</string>
+    <string name="teamgroom">Team Groom</string>
+    <string name="teamboth">Both</string>
+    <string name="title_activity_main__admin__page">Main_Admin_Page</string>
 
 </resources>

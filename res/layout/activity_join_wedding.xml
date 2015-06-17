@@ -1,16 +1,169 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.app.wedcraze.Join_wedding" >
+    android:background="@drawable/signup_bg"
+    tools:context="com.app.wedcraze.signup" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:id="@+id/fullscreen_content_create_join_wedding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
 
-</RelativeLayout>
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls_signup"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="353dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#fff"
+            android:orientation="vertical"
+            tools:ignore="UselessParent" >
+
+			<TextView
+			    android:id="@+id/introduce"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center"
+			    android:layout_margin="5dp"
+			    android:gravity="center"
+			    android:padding="5dp"
+			    android:text="@string/introduce"
+			    android:textColor="#99D0D5"
+			    android:textSize="15sp" />
+			
+			<TextView
+			    android:id="@+id/yourname"
+			    android:layout_width="226dp"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="start"
+			    android:layout_margin="5dp"
+			    android:gravity="start|center_horizontal"
+			    android:padding="5dp"
+			    android:text="@string/yourname"
+			    android:textColor="#6D6D6D"
+			    android:textSize="12sp" />
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="0.00"
+			    android:orientation="horizontal" >
+
+				<EditText
+				    android:id="@+id/fname"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="0.23"
+				    android:ems="10"
+				    android:hint="@string/fname"
+				    android:inputType="text"
+				    android:text="First Name"
+				    android:textColor="#6D6D6D"
+				    android:textSize="12sp"
+				    tools:ignore="HardcodedText" 
+				    android:backgroundTint="#CDCDCD"/>
+        
+			<EditText
+			    android:id="@+id/lname"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="0.23"
+			    android:ems="10"
+			    android:hint="@string/lname"
+			    android:inputType="text"
+			    android:text="Last Name"
+			    android:textColor="#6D6D6D"
+			    android:textSize="12sp"
+			    tools:ignore="HardcodedText"
+			    android:backgroundTint="#CDCDCD"/>
+
+        </LinearLayout>
+        	<TextView
+			    android:id="@+id/belongto"
+			    android:layout_width="226dp"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="start"
+			    android:layout_margin="5dp"
+			    android:gravity="start|center_horizontal"
+			    android:padding="5dp"
+			    android:text="@string/belongto"
+			    android:textColor="#6D6D6D"
+			    android:textSize="12sp" />
+
+        	<LinearLayout
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"
+        	    android:orientation="horizontal" >
+
+			<Button
+			    android:id="@+id/teambride"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:background="#545454"
+			    android:elevation="5dp"
+			    android:padding="15dp"
+			    android:text="@string/teambride"
+			    android:translationZ="25dp" />
+
+			<Button
+			    android:id="@+id/teamgroom"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:background="#545454"
+			    android:elevation="5dp"
+			    android:padding="15dp"
+			    android:text="@string/teamgroom"
+			    android:translationZ="25dp" />
+
+			<Button
+			    android:id="@+id/teamboth"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:background="#545454"
+			    android:elevation="5dp"
+			    android:padding="15dp"
+			    android:text="@string/teamboth"
+			    android:translationZ="25dp" />
+
+        	</LinearLayout>
+        	
+            <Button
+                android:id="@+id/done"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#F38993"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/done"
+                android:translationZ="25dp" />
+
+        </LinearLayout>
+
+        
+
+    </FrameLayout>
+
+</FrameLayout>
