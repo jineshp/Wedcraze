@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 
-public class Create_join_wedding extends Activity {
+public class CreateJoinWedding extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -15,8 +15,8 @@ public class Create_join_wedding extends Activity {
 		this.setContentView(R.layout.create_join_wedding);
 	}
 
-	public void joinwedding(View view) {
-		  Intent intent = new Intent(this, Join_wedding.class);
+	public void createwedding(View view) {
+		  Intent intent = new Intent(this, CreateWedding.class);
 		  startActivity(intent);
 		}
 }

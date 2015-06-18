@@ -29,7 +29,7 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="330dp"
+        android:layout_height="377dp"
         android:fitsSystemWindows="true" >
 
         <LinearLayout
@@ -53,6 +53,7 @@
 			    android:translationZ="25dp" 
 			    android:gravity="center_vertical|center_horizontal|center"
 			    android:padding="20dp"
+			    android:onClick="createwedding"
 			    />
 			
             <TextView

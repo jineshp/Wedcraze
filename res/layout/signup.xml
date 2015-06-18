@@ -35,7 +35,7 @@
         <LinearLayout
             android:id="@+id/fullscreen_content_controls_signup"
             style="?metaButtonBarStyle"
-            android:layout_width="347dp"
+            android:layout_width="355dp"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
             android:background="#fff"
@@ -93,20 +93,19 @@
 
             <ImageView
                 android:id="@+id/sign_up_img_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="190dp"
+                android:layout_height="85dp"
                 android:layout_gravity="center"
                 android:contentDescription="@string/description"
-                android:src="@drawable/signup_img" 
-                android:onClick="Create_join_wedding"/>
+                android:onClick="Create_join_wedding"
+                android:src="@drawable/signup_img" />
 
             <TextView
                 android:id="@+id/policy"
                 android:layout_width="226dp"
-                android:layout_height="0dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
-                android:layout_weight="0.34"
                 android:gravity="center_vertical|center_horizontal|center"
                 android:text="@string/policy"
                 android:textColor="#A4A4A4" />
@@ -148,6 +147,7 @@
                     android:textSize="23sp"
                     android:textStyle="normal" />
             </LinearLayout>
+
         </LinearLayout>
 
     </FrameLayout>

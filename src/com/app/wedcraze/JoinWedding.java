@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Window;
 
-public class Join_wedding extends Activity {
+public class JoinWedding extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

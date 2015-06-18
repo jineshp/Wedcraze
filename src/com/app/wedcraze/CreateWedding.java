@@ -6,19 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 
-public class SignUp_activity extends Activity {
+public class CreateWedding extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-
-		this.setContentView(R.layout.signup);
+		this.setContentView(R.layout.activity_create_wedding_page);
 	}
 
-
-	public void Create_join_wedding(View view) {
-		  Intent intent = new Intent(this, Create_join_wedding.class);
-		  startActivity(intent);
-		}
+	public void createchecklist(View view) {
+	  Intent intent = new Intent(this, CreateChecklist.class);
+	  startActivity(intent);
+	}
 }

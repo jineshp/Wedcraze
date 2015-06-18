@@ -33,5 +33,27 @@
     <string name="teamboth">Both</string>
     <string name="title_activity_main__admin__page">Main_Admin_Page</string>
     <string name="relatedhow">How are you related?</string>
-    
+    <string name="create_events">Create wedding events</string>
+    <string name="create_events_content">"Creating a separate folder for each event will let you share the event details and enable your guests to upload picture for every occasion"</string>
+    <string name="start_creating">Start creating</string>
+    <string name="do_later">Do it later</string>
+    <string name="title_activity_events__page">Events_Page</string>
+    <string name="wedding_event">Your wedding events</string>
+    <string name="mehendi">Mehendi</string>
+    <string name="title_activity_invite_guests">InviteGuests</string>
+    <string name="invite_guests">Invite Guests</string>
+    <string name="invite_guests_content">Say goodbye to the hassle of creating you wedding pictures from everyone across different platforms, invite your family and friends to your WedCraze profile</string>
+    <string name="title_activity_create_checklist">CreateChecklist</string>
+    <string name="create_checklist">Create your Checklist</string>
+    <string name="create_checklist_content">Scroll through our recommended to-do list, coose the tasks that need to be done and sit back as WedCraze sends you timely reminders</string>
+    <string name="title_activity_create_invitations">CreateInvitations</string>
+    <string name="create_invitations">Create Invitations</string>
+    <string name="create_invitations_content">Choose from our wide range of vibrant templates to create customized electronic invitations for your loved ones, free of cost!</string>
+    <string name="title_activity_create_your_story">CreateYourStory</string>
+    <string name="create_your_story">Create Your Story</string>
+    <string name="create_your_story_content">Love or arranged, every marriage has a beautiful story leading up to it. Immortalize yours by sharing it with us on WedCraze and let all your guests witness the magical moments that culminated in the sacred and everlasting bond with your loved one.</string>
+    <string name="title_activity_your_guest_list">YourGuestList</string>
+	<string name="your_guest_list">Your Guest List</string>
+	<string name="add_more_guests">Add more guests</string>
+	<string name="next">Next</string>
 </resources>

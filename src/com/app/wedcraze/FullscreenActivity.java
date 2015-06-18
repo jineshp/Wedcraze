@@ -29,7 +29,7 @@ public class FullscreenActivity extends Activity {
 	}
 	
 	public void signup(View view) {
-		  Intent intent = new Intent(this, SignUp_activity.class);
+		  Intent intent = new Intent(this, SignUp.class);
 		  startActivity(intent);
 		}
 }

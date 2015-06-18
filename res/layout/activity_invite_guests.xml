@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.app.wedcraze.InviteGuests" 
+    android:background="@drawable/inviteguests"
+    >
+
+    <LinearLayout
+        android:id="@+id/inviteguests_llayout_1"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+        <TextView
+            android:id="@+id/inviteguests"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_weight="166"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="@string/invite_guests"
+            android:textColor="#757575"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/inviteguests_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_weight="383.95"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="@string/invite_guests_content"
+            android:textColor="#757575"
+            android:textSize="15sp"
+            android:paddingTop="50dp" 
+            />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/inviteguests_content_layout"
+    style="?metaButtonBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="62dp"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:ignore="UselessParent" >
+
+    <Button
+        android:id="@+id/start_creating"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#F38993"
+        android:elevation="5dp"
+        android:text="@string/start_creating"
+        android:translationZ="25dp" 
+        android:onClick="yourguestlist"/>
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/do_later"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="46dp"
+    android:background="#F38993"
+    android:elevation="5dp"
+    android:text="@string/do_later"
+    android:translationZ="25dp" />
+    
+</RelativeLayout>
