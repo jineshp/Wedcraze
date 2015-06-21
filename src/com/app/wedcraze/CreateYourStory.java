@@ -15,8 +15,8 @@ public class CreateYourStory extends Activity {
 		this.setContentView(R.layout.activity_create_your_story);
 	}
 
-	public void yourguestlist(View view) {
-		  Intent intent = new Intent(this, YourGuestList.class);
+	public void inviteguests(View view) {
+		  Intent intent = new Intent(this, InviteGuests.class);
 		  startActivity(intent);
 		}
 }

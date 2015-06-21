@@ -86,6 +86,6 @@
     android:elevation="5dp"
     android:text="@string/do_later"
     android:translationZ="25dp"
-    android:onClick="yourguestlist" />
+    android:onClick="inviteguests" />
     
 </RelativeLayout>

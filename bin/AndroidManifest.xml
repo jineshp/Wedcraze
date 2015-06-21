@@ -72,9 +72,12 @@
         </activity>
         <activity
             android:name=".YourGuestList"
-            android:label="@string/title_activity_your_guest_list" 
+            android:label="@string/title_activity_your_guest_list"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name=".AdminProfilePage"
+            android:label="@string/title_activity_admin_profile_page" >
+        </activity>
     </application>
-
 </manifest>

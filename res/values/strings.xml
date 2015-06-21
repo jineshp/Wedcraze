@@ -53,7 +53,14 @@
     <string name="create_your_story">Create Your Story</string>
     <string name="create_your_story_content">Love or arranged, every marriage has a beautiful story leading up to it. Immortalize yours by sharing it with us on WedCraze and let all your guests witness the magical moments that culminated in the sacred and everlasting bond with your loved one.</string>
     <string name="title_activity_your_guest_list">YourGuestList</string>
-	<string name="your_guest_list">Your Guest List</string>
-	<string name="add_more_guests">Add more guests</string>
-	<string name="next">Next</string>
+    <string name="your_guest_list">Your Guest List</string>
+    <string name="add_more_guests">Add more guests</string>
+    <string name="next">Next</string>
+    <string name="title_activity_admin_profile_page">AdminProfilePage</string>
+    <string name="weddingcouple">NIKITA WEDS RAHUL</string>
+    <string name="weddingid">nikitarahul2015</string>
+    <string name="createevents">Create Events</string>
+    <string name="inviteguests">Invite Guests</string>
+    <string name="yourweddingevents">Your wedding events</string>
+    
 </resources>
