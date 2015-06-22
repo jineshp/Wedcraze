@@ -79,5 +79,10 @@
             android:name=".AdminProfilePage"
             android:label="@string/title_activity_admin_profile_page" >
         </activity>
+        <activity
+            android:name=".CreateYourProfile"
+            android:label="@string/title_activity_create_your_profile" >
+        </activity>
     </application>
+
 </manifest>
