@@ -1,4 +1,4 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,39 +13,80 @@
          TextureView, etc.
     -->
 
-    <TextView
-        android:id="@+id/fullscreen_content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:keepScreenOn="true"
-        
-        android:textColor="#33b5e5"
-        android:textSize="50sp"
-        android:textStyle="bold" />
+    		  <LinearLayout
+    		      android:id="@+id/signupwithlayout"
+    		      android:layout_width="fill_parent"
+    		      android:layout_height="wrap_content" 
+    		      android:layout_marginTop="100dp">
+					
+    		      <TextView
+    		          android:id="@+id/signupwith"
+    		          android:layout_width="match_parent"
+    		          android:layout_height="wrap_content"
+    		          android:layout_gravity="center"
+    		          android:gravity="center_vertical|center_horizontal|center"
+    		          android:text="@string/signupwith"
+    		          android:textColor="#A4A4A4"
+    		          android:textSize="15sp" />
 
-    <!--
-         This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows.
-    -->
+    		  </LinearLayout>
+    		 
+	           <LinearLayout
+                android:id="@+id/social_login_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:layout_below="@id/signupwithlayout"
+                android:layout_marginTop="15dp"> 
+	               
+                <Button
+                    android:id="@+id/facebook"
+                    style="@style/ButtonBarButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#3B589A"
+                    android:text="@string/facebook_btn"
+                    android:textSize="20sp"
+                    android:drawableStart="@drawable/fb"
+                    android:onClick="createjoin" />
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:fitsSystemWindows="true" >
+                <Button
+                    android:id="@+id/gmail_btn"
+                    style="@style/ButtonBarButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#DA4835"
+                    android:text="@string/gmail_btn"
+                    android:textSize="20sp"
+                    android:drawableStart="@drawable/gp"/>
+
+            </LinearLayout>
 
         <LinearLayout
             android:id="@+id/fullscreen_content_controls"
             style="?metaButtonBarStyle"
             android:layout_width="347dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/social_login_layout"
             android:background="#fff"
             android:orientation="vertical"
-            tools:ignore="UselessParent" >
+            tools:ignore="UselessParent" 
+            android:layout_marginTop="15dp">
+			
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:text="@string/orsignupwith"
+                android:textColor="#A4A4A4" />
+	                       
             <EditText
 			    android:id="@+id/editText1"
 			    android:layout_width="match_parent"
@@ -54,96 +95,76 @@
 			    android:hint="@string/username"
 			    android:layout_margin="5dp"
 			    android:inputType="text"
-			    tools:ignore="HardcodedText" >
-			    <requestFocus />
+			    tools:ignore="HardcodedText" 
+			    android:backgroundTint="#99D0D5">
 			</EditText>
-
+			
+            <EditText
+			    android:id="@+id/emailid"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:ems="10"
+			    android:hint="@string/emailaddress"
+			    android:inputType="textEmailAddress"
+			    tools:ignore="HardcodedText" 
+			    android:layout_margin="5dp"
+			    android:backgroundTint="#99D0D5"/>
+            
 			<EditText
-			    android:id="@+id/editText2"
+			    android:id="@+id/password"
 			    android:layout_width="match_parent"
 			    android:layout_height="wrap_content"
 			    android:ems="10"
 			    android:hint="@string/password"
 			    android:inputType="textPassword"
 			    tools:ignore="HardcodedText" 
-			    android:layout_margin="5dp"/>
+			    android:layout_margin="5dp"
+			    android:backgroundTint="#99D0D5"/>
 			
-			<Button
-			    android:id="@+id/login_btn"
-			    android:layout_width="fill_parent"
-			    android:layout_height="wrap_content"
-			    android:background="#F38993"
-			    android:elevation="5dp"
-			    android:text="@string/log_in"
-			    android:translationZ="25dp" />
-
-			<TextView
-			    android:id="@+id/textView1"
-			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content"
-			    android:text="@string/forgot_login"
-			    android:textColor="#A4A4A4"
-			    android:layout_gravity="center"
-			    android:layout_margin="5dp"/>
-			
-			<TextView
-			    android:id="@+id/textView2"
-			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content"
-			    android:text="@string/or"
-			    android:textColor="#A4A4A4"
-			    android:layout_gravity="center"
-			    android:layout_margin="5dp"/>
-
-			
-			
-            <Button
-			 android:id="@+id/signup_btn"
-			 android:layout_width="fill_parent"
-			 android:layout_height="wrap_content"
-			 android:text="@string/signup_btn"
-			 android:background="#F38993"
-			 android:onClick="signup" />
+			<ImageView
+                android:id="@+id/sign_up_img_btn"
+                android:layout_width="190dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/description"
+                android:onClick="Create_join_wedding"
+                android:src="@drawable/signup_img" />
+            
+        </LinearLayout>
+		
+        <LinearLayout
+            android:id="@+id/manual_login_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_below="@+id/fullscreen_content_controls"
+            android:layout_marginTop="15dp">
             
             <TextView
-			    android:id="@+id/textView3"
-			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content"
-			    android:text="@string/or_login"
-			    android:textColor="#A4A4A4"
-			    android:layout_gravity="center"
-			    android:layout_margin="5dp"/>
-
-            <LinearLayout
-                android:layout_width="fill_parent"
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal" >
-
-                <Button
-                    android:id="@+id/facebook"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.50"
+                android:gravity="center"
+                android:text="@string/existinguser"
+                android:textColor="#A4A4A4"
+                android:textSize="15sp" />
+            
+            <Button
+                    android:id="@+id/login"
                     style="@style/ButtonBarButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:background="#3B589A"
-                    android:text="@string/facebook_btn"
-                    android:textSize="23sp" />
-
-                <Button
-                    android:id="@+id/gmail_btn"
-                    style="@style/ButtonBarButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_weight="1"
-                    android:background="#F01A26"
-                    android:text="@string/gmail_btn"
-                    android:textSize="23sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
+                    android:background="@drawable/btn_border"
+                    android:text="@string/login"
+                    android:textSize="15sp"
+                    android:textColor="#A4A4A4" />
+            
         </LinearLayout>
-    </FrameLayout>
-    </FrameLayout>
+        
+
+    </RelativeLayout>

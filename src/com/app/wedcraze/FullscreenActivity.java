@@ -25,11 +25,15 @@ public class FullscreenActivity extends Activity {
 		//setContentView(R.layout.activity_fullscreen);
 		//Remove title bar
 		this.setContentView(R.layout.activity_fullscreen);
-
+		
 	}
 	
 	public void signup(View view) {
 		  Intent intent = new Intent(this, SignUp.class);
+		  startActivity(intent);
+		}
+	public void createjoin(View view) {
+		  Intent intent = new Intent(this, CreateJoinWedding.class);
 		  startActivity(intent);
 		}
 }

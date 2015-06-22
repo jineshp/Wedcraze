@@ -62,5 +62,11 @@
     <string name="createevents">Create Events</string>
     <string name="inviteguests">Invite Guests</string>
     <string name="yourweddingevents">Your wedding events</string>
+    <string name="signupwith">Sign up with</string>
+    <string name="orsignupwith">Or sign up with mail</string>
+    <string name="emailid">Or sign up with mail</string>
+    <string name="emailaddress">email address</string>
+    <string name="existinguser">Existing User?</string>
+    <string name="login">Login</string>
     
 </resources>
