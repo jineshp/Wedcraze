@@ -69,9 +69,8 @@
     <string name="existinguser">Existing User?</string>
     <string name="login">Login</string>
     <string name="title_activity_create_your_profile">CreateYourProfile</string>
-    <string name="bridename">Bride\'s name</string>
-    <string name="groomname">Groom\'s name</string>
-    
-        
+    <string name="bridename">Bride name</string>
+    <string name="groomname">Groom name</string>
+    <string name="title_activity_create_profile">CreateProfile</string>
 
 </resources>

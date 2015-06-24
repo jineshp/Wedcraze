@@ -11,8 +11,9 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:label="@string/app_name">
+        <!-- android:theme="@style/AppTheme"  -->
+        
         <activity
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -80,8 +81,8 @@
             android:label="@string/title_activity_admin_profile_page" >
         </activity>
         <activity
-            android:name=".CreateYourProfile"
-            android:label="@string/title_activity_create_your_profile" >
+            android:name=".CreateProfile"
+            android:label="@string/title_activity_create_profile" >
         </activity>
     </application>
 

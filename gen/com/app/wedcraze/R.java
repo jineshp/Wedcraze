@@ -25,6 +25,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int black_overlay=0x7f040000;
         public static final int colorPrimary=0x7f040002;
         public static final int colorPrimaryDark=0x7f040001;
+        public static final int wedcrazegreen=0x7f040003;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -73,35 +74,35 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int create_checklist_content=0x7f0a000e;
         public static final int create_checklist_content_layout=0x7f0a000f;
         public static final int create_checklist_llayout_1=0x7f0a000c;
-        public static final int create_events=0x7f0a0017;
-        public static final int create_events_content=0x7f0a0018;
-        public static final int create_events_content_layout=0x7f0a0019;
-        public static final int create_events_llayout_1=0x7f0a0016;
+        public static final int create_events=0x7f0a0018;
+        public static final int create_events_content=0x7f0a0019;
+        public static final int create_events_content_layout=0x7f0a001a;
+        public static final int create_events_llayout_1=0x7f0a0017;
         public static final int create_invitations=0x7f0a0013;
         public static final int create_invitations_content=0x7f0a0014;
         public static final int create_invitations_content_layout=0x7f0a0015;
         public static final int create_invitations_llayout_1=0x7f0a0012;
         public static final int create_wedding=0x7f0a0045;
-        public static final int create_yourstory=0x7f0a001b;
-        public static final int create_yourstory_content=0x7f0a001c;
-        public static final int create_yourstory_content_layout=0x7f0a001d;
-        public static final int create_yourstory_llayout_1=0x7f0a001a;
+        public static final int create_yourstory=0x7f0a001c;
+        public static final int create_yourstory_content=0x7f0a001d;
+        public static final int create_yourstory_content_layout=0x7f0a001e;
+        public static final int create_yourstory_llayout_1=0x7f0a001b;
         public static final int createevents=0x7f0a0005;
         public static final int do_later=0x7f0a0011;
         public static final int done=0x7f0a003e;
-        public static final int editText1=0x7f0a0029;
+        public static final int editText1=0x7f0a0016;
         public static final int emailid=0x7f0a002a;
         public static final int eventsicon1=0x7f0a0009;
         public static final int eventsicon2=0x7f0a000a;
         public static final int eventsicon3=0x7f0a000b;
-        public static final int facebook=0x7f0a0025;
+        public static final int facebook=0x7f0a0026;
         public static final int fname=0x7f0a0037;
-        public static final int fullscreen_content_controls=0x7f0a0027;
+        public static final int fullscreen_content_controls=0x7f0a0028;
         public static final int fullscreen_content_controls_signup=0x7f0a0034;
         public static final int fullscreen_content_create_join_wedding=0x7f0a0033;
         public static final int fullscreen_content_signup=0x7f0a004b;
-        public static final int gmail_btn=0x7f0a0026;
-        public static final int imageView1=0x7f0a0021;
+        public static final int gmail_btn=0x7f0a0027;
+        public static final int imageView1=0x7f0a0022;
         public static final int introduce=0x7f0a0035;
         public static final int inviteguests=0x7f0a0004;
         public static final int inviteguests_content=0x7f0a0031;
@@ -117,22 +118,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int policy=0x7f0a004c;
         public static final int relatedhow=0x7f0a003d;
         public static final int sign_up_img_btn=0x7f0a002c;
-        public static final int signupwith=0x7f0a0023;
-        public static final int signupwithlayout=0x7f0a0022;
-        public static final int social_login_layout=0x7f0a0024;
+        public static final int signupwith=0x7f0a0024;
+        public static final int signupwithlayout=0x7f0a0023;
+        public static final int social_login_layout=0x7f0a0025;
         public static final int start_creating=0x7f0a0010;
         public static final int teamboth=0x7f0a003c;
         public static final int teambride=0x7f0a003a;
         public static final int teamgroom=0x7f0a003b;
-        public static final int textView1=0x7f0a0028;
+        public static final int textView1=0x7f0a0029;
         public static final int textView3=0x7f0a002e;
         public static final int txt_dia=0x7f0a0047;
         public static final int username=0x7f0a004a;
-        public static final int wedding_events=0x7f0a001e;
+        public static final int wedding_events=0x7f0a001f;
         public static final int weddingcouple=0x7f0a0001;
         public static final int weddingid=0x7f0a0002;
-        public static final int weddings_events_llayout_1=0x7f0a001f;
-        public static final int weddings_events_llayout_2=0x7f0a0020;
+        public static final int weddings_events_llayout_1=0x7f0a0020;
+        public static final int weddings_events_llayout_2=0x7f0a0021;
         public static final int your_guest_list_button_layout=0x7f0a0041;
         public static final int your_guest_list_llayout_1=0x7f0a003f;
         public static final int your_guest_list_llayout_2=0x7f0a0040;
@@ -143,8 +144,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_admin_profile_page=0x7f030000;
         public static final int activity_create_checklist=0x7f030001;
         public static final int activity_create_invitations=0x7f030002;
-        public static final int activity_create_wedding_page=0x7f030003;
-        public static final int activity_create_your_profile=0x7f030004;
+        public static final int activity_create_profile=0x7f030003;
+        public static final int activity_create_wedding_page=0x7f030004;
         public static final int activity_create_your_story=0x7f030005;
         public static final int activity_events__page=0x7f030006;
         public static final int activity_fullscreen=0x7f030007;
@@ -161,14 +162,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int create_checklist=0x7f090001;
         public static final int create_invitations=0x7f090002;
         public static final int create_join_wedding=0x7f090003;
-        public static final int create_your_profile=0x7f090004;
-        public static final int create_your_story=0x7f090005;
-        public static final int events__page=0x7f090006;
-        public static final int invite_guests=0x7f090007;
-        public static final int join_wedding=0x7f090008;
-        public static final int main__create__wedding__page=0x7f090009;
-        public static final int sign_up_activity=0x7f09000a;
-        public static final int your_guest_list=0x7f09000b;
+        public static final int create_profile=0x7f090004;
+        public static final int create_your_profile=0x7f090005;
+        public static final int create_your_story=0x7f090006;
+        public static final int events__page=0x7f090007;
+        public static final int invite_guests=0x7f090008;
+        public static final int join_wedding=0x7f090009;
+        public static final int main__create__wedding__page=0x7f09000a;
+        public static final int sign_up_activity=0x7f09000b;
+        public static final int your_guest_list=0x7f09000c;
     }
     public static final class string {
         public static final int Wedcraze=0x7f060000;
@@ -228,6 +230,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int title_activity_create_checklist=0x7f06002c;
         public static final int title_activity_create_invitations=0x7f06002f;
         public static final int title_activity_create_join_wedding=0x7f060017;
+        public static final int title_activity_create_profile=0x7f060048;
         public static final int title_activity_create_your_profile=0x7f060045;
         public static final int title_activity_create_your_story=0x7f060032;
         public static final int title_activity_events__page=0x7f060026;
@@ -258,20 +261,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f080004;
+        public static final int AppBaseTheme=0x7f080003;
+        public static final int ButtonBar=0x7f080001;
+        public static final int ButtonBarButton=0x7f080002;
+        public static final int FullscreenActionBarStyle=0x7f080004;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
 
     
+  <style name="AppTheme" parent="android:Theme.Material">
+   
+  </style>
+ Application theme. 
          */
-        public static final int AppTheme=0x7f080000;
-        public static final int ButtonBar=0x7f080002;
-        public static final int ButtonBarButton=0x7f080003;
-        public static final int FullscreenActionBarStyle=0x7f080005;
-        /**  Application theme. 
-         */
-        public static final int FullscreenTheme=0x7f080001;
+        public static final int FullscreenTheme=0x7f080000;
     }
     public static final class styleable {
         /** 
